@@ -9,6 +9,9 @@ This stack is built with a combination of tools including:
 - [dbt](https://www.getdbt.com) (transformation)
 - [Evidence](https://evidence.dev) (dashboard framework)
 
+![dagster](./docs/dashboard.gif)
+![dagster](./docs/dagster_ui.png)
+
 ## Source
 This project queries the public PyPI Packages ~360TB dataset of ~1,020,000,000,000 rows.
 
