@@ -68,9 +68,8 @@ class FileDownloads(BaseModel):
 
 class PypiJobParameters(BaseModel):
     start_date: str = "2019-04-01"
-    end_date: str = "2023-11-30"
-    pypi_project: str = "duckdb"
-    # gcp_project: str
+    pypi_packages: list = ["duckdb"]
+    gcp_project: str
     # destination: Annotated[
     #     Union[List[str], str], Field(default=["local"])
     # ]  # local, s3, md

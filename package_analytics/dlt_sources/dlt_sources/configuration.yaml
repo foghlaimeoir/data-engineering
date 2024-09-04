@@ -1,0 +1,13 @@
+sources:
+  packages:
+    - polars
+#    - pyarrow
+#    - duckdb
+  github:
+    repositories:
+      pola-rs:
+        - polars
+      apache:
+        - arrow
+      duckdb:
+        - duckdb

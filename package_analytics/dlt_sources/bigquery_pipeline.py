@@ -2,14 +2,14 @@ import os
 from datetime import datetime, timedelta
 
 from google.cloud import bigquery
-from google.cloud import storage
+# from google.cloud import storage
 from google.oauth2 import service_account
 from google.auth.exceptions import DefaultCredentialsError
 from loguru import logger
 import time
-from .models import PypiJobParameters, FileDownloads
+# from .models import PypiJobParameters, FileDownloads
 import pyarrow as pa
-import dlt
+import dlt_test
 import fire
 
 from dotenv import load_dotenv
@@ -147,6 +147,7 @@ def bigquery_source(
         return dlt.resource(
             get_bigquery_result,
             name=project,
+
         )(query_str, bigquery_client)
 
 
