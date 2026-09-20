@@ -1,3 +1,4 @@
+**failed attempt to build upon https://motherduck.com/authors/mehdi-ouazza/ tutorials**
 # package_analytics
 
 This stack is built with a combination of tools including:
